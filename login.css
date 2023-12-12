@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(187,101,54) , rgb(178, 64, 57));
+}
+
+.x{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#container{
+    padding: 65px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+#login-form{
+    background-color: #fff;
+    padding: 47px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 495px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.logo-png{
+    width: 30px;
+    margin-bottom: 15px;
+}
+
+.login-signup{
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: rgb(68, 65, 65);
+    font-weight: 540;
+}
+
+.email-use{
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: rgb(159, 159, 159);
+}
+
+#facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px groove;
+    border-radius: 25px;
+    width: 300px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#facebook p{
+    color: rgb(153, 153, 153);
+}
+
+.facebook-image{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.img-two{
+    width: 400px;
+}
